@@ -1,0 +1,38 @@
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+}
+
+.blue {
+    color: skyblue;
+}
+
+.pink {
+    color:  rgb(255, 192, 203);
+}
+
+h1 {
+    font-family: "Josefin Sans", sans-serif;
+
+    /* ルート要素の2倍になる */
+    font-size: 2rem; 
+}
+
+/* 文字間を文字の大きさに対して1.2倍にする */
+h1 {
+    letter-spacing: 1.2em;
+}
+
+/* 文字に影をつける　横方向　縦方向　ぼかしの色　色 */
+h1 {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* h1の下に3pxの実線をつける 線の太さ　線の種類　線の色*/
+h1 {
+    border-bottom: 3px solid rgb(115, 115, 114); 
+}
+
+/* id="basic"の中にあるspanタグだけ太字にする */
+#basic span {
+    font-weight: bold;
+}
